@@ -1,0 +1,50 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-color: $darkCyan;
+    border-radius: 10px;
+    margin: 5.5rem 1.5625rem;
+    &__item {
+        padding: 3.125rem;
+        &:first-child {
+            background-color: $brightOrange;
+            border-radius: 10px 10px 0 0;
+        }
+        &:last-child {
+            background-color: $veryDarkCyan;
+            border-radius: 0 0 10px 10px;
+        }
+        h1 {
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+    }
+    &__icon {
+        margin-bottom: 40px;
+    }
+    &__description {
+        font-size: 15px;
+        line-height: 1.8;
+        margin-top: 40px;
+        margin-bottom: 32px;
+    }
+    &__cta {
+        text-align: center;
+        display: inline-block;
+        font-size: 14px;
+        background-color: $veryLightGray;
+        width: 150px;
+        height: 50px;
+        border-radius: 32px;
+        padding-top: 17px;
+    }
+    .cta1 {
+        color: $brightOrange;
+    }
+    .cta2 {
+        color: $darkCyan;
+    }
+    .cta3 {
+        color: $veryDarkCyan;
+    }
+}

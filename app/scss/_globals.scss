@@ -1,0 +1,30 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $regularFontFamily;
+    font-weight: 400;
+    color: $transparentWhite;
+}
+
+h1 {
+    font-family: $boldFontFamily;
+    font-weight: 700;
+    color: $veryLightGray;
+}
+
+a,
+a:hover,
+a:visited {
+    text-decoration: none;
+}
