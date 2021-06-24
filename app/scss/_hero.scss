@@ -35,16 +35,30 @@
         background-color: $veryLightGray;
         width: 150px;
         height: 50px;
+        border: none;
         border-radius: 32px;
-        padding-top: 17px;
+        padding-top: 15px;
+        border: 2px solid $veryLightGray;
     }
     .cta1 {
         color: $brightOrange;
+        &:hover {
+            background-color: $brightOrange;
+            color: $veryLightGray;
+        }
     }
     .cta2 {
         color: $darkCyan;
+        &:hover {
+            background-color: $darkCyan;
+            color: $veryLightGray;
+        }
     }
     .cta3 {
         color: $veryDarkCyan;
+        &:hover {
+            background-color: $veryDarkCyan;
+            color: $veryLightGray;
+        }
     }
 }

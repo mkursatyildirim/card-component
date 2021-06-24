@@ -91,19 +91,36 @@ a:visited {
   background-color: #f2f2f2;
   width: 150px;
   height: 50px;
+  border: none;
   border-radius: 32px;
-  padding-top: 17px;
+  padding-top: 15px;
+  border: 2px solid #f2f2f2;
 }
 
 .hero .cta1 {
   color: #e38826;
 }
 
+.hero .cta1:hover {
+  background-color: #e38826;
+  color: #f2f2f2;
+}
+
 .hero .cta2 {
   color: #006970;
 }
 
+.hero .cta2:hover {
+  background-color: #006970;
+  color: #f2f2f2;
+}
+
 .hero .cta3 {
   color: #004241;
+}
+
+.hero .cta3:hover {
+  background-color: #004241;
+  color: #f2f2f2;
 }
 /*# sourceMappingURL=style.css.map */
